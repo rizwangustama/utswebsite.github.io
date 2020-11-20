@@ -368,28 +368,63 @@ ul li {
     margin-left: 5px;
 }
 
-footer {
-
+    footer {
+        margin-top: 10px;
+        background: rgb(32, 32, 32);
+        width: 100%;
+        height: 600px;
 }
 
-footer .f-konten {
-
+footer .f-container {
+    padding: 100px;
 }
 
-/* footer .f-konten .f-kiri {
-    background: violet;
+footer .f-container .f-konten {
+    display: flex;
+}
+
+footer .f-container .f-konten .f-kiri {
     width: 33.3%;
     height: 400px;
+    margin-right: 20px;
 }
 
+footer .f-container .f-konten .f-kiri img {
+    width: 400px;
+}
+
+footer .f-container .f-konten .f-kiri p {
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+}
 footer .f-konten .f-tengah {
-    background: yellowgreen;
     width: 33.3%;
     height: 400px;
+}
+
+footer .f-konten .f-tengah .isi-tengah{
+    display: block;
+    margin-right: 20px;
+}
+
+footer .f-konten .f-tengah .isi-tengah .f-isi {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer .f-konten .f-tengah .isi-tengah img {
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+footer .f-konten .f-tengah .isi-tengah .f-isi p{
+    color: white;
 }
 
 footer .f-konten .f-kanan {
-
+    
     width: 33.3%;
     height: 400px;
-} */
+}
